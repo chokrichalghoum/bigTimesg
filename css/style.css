@@ -878,6 +878,7 @@ h3 {
   -ms-justify-content: flex-end;
   justify-content: flex-end;
   -ms-flex-pack: flex-end;
+  float:left;
 }
 
 /* line 64, ../../Arafath/CL/December/229. Restaurant (Burger)/HTML/scss/_header.scss */
@@ -2862,7 +2863,7 @@ h3 {
 @media (max-width: 767px) {
   /* line 12, ../../Arafath/CL/December/229. Restaurant (Burger)/HTML/scss/_delicious.scss */
   .best_burgers_area .single_delicious_small {
-    display: block !important;
+   /* display: block !important; */
     text-align: center;
   }
 }
@@ -2870,7 +2871,7 @@ h3 {
 @media (min-width: 768px) and (max-width: 991px) {
   /* line 12, ../../Arafath/CL/December/229. Restaurant (Burger)/HTML/scss/_delicious.scss */
   .best_burgers_area .single_delicious_small {
-    display: block !important;
+   /* display: block !important; */
   }
 }
 
